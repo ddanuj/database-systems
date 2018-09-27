@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml 
+    xmlns="http://earth.google.com/kml/2.0">
+    <Document>
+        <Style id="z1">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <name>hw3.kml</name>
+        <Style id="poly">
+            <LineStyle>
+                <color>f0ffed42</color>
+            </LineStyle>
+            <PolyStyle>
+                <color>7F0000ff</color>
+            </PolyStyle>
+        </Style>
+        <Style id="line">
+            <LineStyle>
+                <color>ff3dff22</color>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Placemark>
+            <name>Home</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.283059,34.029882</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>28th-university</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.281133,34.027684</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>32nd-university</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.283086,34.024709</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Leavy</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.282977,34.021694</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tommy Trojan</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.285439,34.020494</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aquatic Center</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.288408,34.024028</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>USC Village</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.285381,34.025416</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fire Station</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.284017,34.026849</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Study Hall</name>
+            <styleUrl>#z1</styleUrl>
+            <Point>
+                <coordinates>-118.284291,34.028570</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <styleUrl>#line</styleUrl>
+            <LineString>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates> 	        	                -118.283059,34.029882,15
+				-118.284291,34.02857,15
+				-118.283059,34.029882,15
+				-118.281133,34.027684,15
+				-118.283059,34.029882,15
+				-118.284017,34.026849,15
+	        </coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark>
+            <styleUrl>#poly</styleUrl>
+            <Polygon>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>
+-118.285439,34.020494,10 -118.288408,34.024028,10
+-118.284291,34.02857,10 -118.283059,34.029882,10
+-118.281133,34.027684,10 -118.282977,34.021694,10
+-118.285439,34.020494,10</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+    </Document>
+</kml>
